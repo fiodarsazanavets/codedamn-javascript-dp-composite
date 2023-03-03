@@ -4,10 +4,6 @@ class Folder extends Component {
     
     #children;
 
-    display(currentPath) {
-        console.log(currentPath + this.getName() + '/');
-    }
-
     add(child) {
         this.#children.push(child);
     }
